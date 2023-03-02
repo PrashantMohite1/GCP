@@ -43,11 +43,13 @@ to delete instances
 
 ************************************ Script to create in gcp cli ******************************************************
 
-gcloud compute instances create [INSTANCE_NAME] \
---zone=[ZONE] \
---machine-type=[MACHINE_TYPE] \
+
+
+gcloud compute instances create my-ubuntu-instance \
+--zone=us-central1-a \
+--machine-type=n1-standard-1 \
 --image-project=ubuntu-os-cloud \
 --image-family=ubuntu-2104-lts \
---boot-disk-size=[BOOT_DISK_SIZE] \
+--boot-disk-size=20GB \
 --boot-disk-type=pd-standard \
---boot-disk-device-name=[DISK_NAME]
+--boot-disk-device-name=my-ubuntu-disk
