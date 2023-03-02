@@ -1,0 +1,22 @@
+
+TO View History in windows powershell
+# doskey /HISTORY ON
+
+to clear screen in windows powershell
+# cls
+
+
+to list all bucket 
+# gcloud storage ls 
+
+to list objects inside bucket 
+# gcloud storage ls --recursive gs://BUCKET_NAME/**
+
+
+for list of available instances 
+# gcloud compute instances list 
+
+to delete instances 
+# gcloud compute instances delete instance-name
+
+
