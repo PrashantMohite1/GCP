@@ -22,7 +22,8 @@ to delete instances
 
 
 
-
+To push docker images to gcr (Google Container Registry )
+# docker push gcr.io/my-project/web-site:v1.5
 
 
 
